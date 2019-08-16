@@ -9,13 +9,27 @@
             this.height = Height;
         }
         
-        public int getWidth()
-        {
-            return width;
+        public int width()
+        {   
+               get 
+               {
+               return width;
+               }
+               set 
+               {
+               width = value;
+               }
         }
 
-        public int getHeight()
+        public int height()
         {
+            get 
+            {
             return height;
+            }
+            set
+            {
+            height = value;
+            }
         }
     }
